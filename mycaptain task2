@@ -4,9 +4,26 @@ a=0
 b=1
 i=0                 #Loop Variable
 
+print("***The Fibonacci Series is***")
+while (i<n):
 while (i<n):
     print(a)
     c=b+a            #Updating values using new variable c
     a=b
     b=c
     i+=1
+
+
+
+#OUTPUT SCREEN
+***The Fibonacci Series is***
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
